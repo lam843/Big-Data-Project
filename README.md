@@ -1,19 +1,18 @@
 # SaveurDuMaroc
- Création d’une application qui stocke des données et les récupère à partir du neo4j avec PHP Laravel
-Pour lancer une application Laravel avec Neo4j, suivez ces étapes :
 
-1. **Installation des dépendances :**
-   Assurez-vous que vous avez installé Composer et Node.js sur votre machine. Ensuite, ouvrez une console et naviguez vers le répertoire de votre projet Laravel. Exécutez les commandes suivantes pour installer les dépendances :
+ Creation of an application that stores and retrieves data from Neo4j using PHP Laravel.
+To launch a Laravel application with Neo4j, follow these steps:
 
+1. **Install Dependencies :**
+  Make sure you have Composer and Node.js installed on your machine. Then, open a console and navigate to your Laravel project directory. Execute the following commands to install dependencies
    ```bash
    composer install
    npm install
    ```
 
-2. **Configuration de la base de données Neo4j :**
-   - Assurez-vous que Neo4j est installé et en cours d'exécution sur votre machine.
-   - Configurez votre fichier `.env` avec les informations de connexion Neo4j que vous avez fournies, telles que :
-
+2. **Configure Neo4j Database:**
+   - Ensure Neo4j is installed and running on your machine.
+   - Configure your .env file with the Neo4j connection information you provided, such as:
      ```env
      DB_CONNECTION=neo4j
      NEO4J_CONNECTION=bolt
@@ -23,28 +22,29 @@ Pour lancer une application Laravel avec Neo4j, suivez ces étapes :
      NEO4J_PASSWORD=password
      ```
 
-3. **Génération de la clé d'application Laravel :**
-   Exécutez la commande suivante pour générer la clé d'application Laravel :
+3. **Generate Laravel Application Key:**
+Execute the following command to generate the Laravel application key:
 
    ```bash
    php artisan key:generate
    ```
 
-4. **Exécution des migrations et des seeders :**
-   Pour créer les tables de base de données et ajouter des données de test, utilisez les commandes suivantes :
+5. **Run Migrations and Seeders:**
+   To create the database tables and add test data, use the following commands:
+
 
    ```bash
    php artisan migrate
    php artisan db:seed
    ```
 
-5. **Lancement du serveur :**
-   Enfin, lancez le serveur Laravel avec la commande :
+6. **Start the Server:**
+  Finally, launch the Laravel server with the command:
 
    ```bash
    php artisan serve
    ```
 
-   Cela devrait démarrer le serveur de développement, et vous devriez pouvoir accéder à votre application à l'adresse [http://127.0.0.1:8000](http://127.0.0.1:8000) dans votre navigateur.
+   This should start the development server, and you should be able to access your application at http://127.0.0.1:8000 in your browser.
 
-Assurez-vous que votre serveur Neo4j est opérationnel et que les informations de connexion dans le fichier `.env` sont correctes. Si vous rencontrez des problèmes, assurez-vous de vérifier les journaux d'erreurs pour des messages spécifiques.
+Ensure your Neo4j server is operational, and the connection information in the .env file is correct. If you encounter issues, be sure to check the error logs for specific messages.
