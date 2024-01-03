@@ -47,4 +47,9 @@ Execute the following command to generate the Laravel application key:
 
    This should start the development server, and you should be able to access your application at http://127.0.0.1:8000 in your browser.
 
+7. **Home Page :**
+   
+![1](https://github.com/lam843/Big-Data-Project/assets/78732216/f0785fd6-b021-4d76-bd97-20b9047f68d0)
+
 Ensure your Neo4j server is operational, and the connection information in the .env file is correct. If you encounter issues, be sure to check the error logs for specific messages.
+
