@@ -51,5 +51,10 @@ Execute the following command to generate the Laravel application key:
    
 ![1](https://github.com/lam843/Big-Data-Project/assets/78732216/f0785fd6-b021-4d76-bd97-20b9047f68d0)
 
-Ensure your Neo4j server is operational, and the connection information in the .env file is correct. If you encounter issues, be sure to check the error logs for specific messages.
+
+8. **Demo :**
+
+![ezgif com-video-to-gif-converter](https://github.com/SanaeBelfrouh/SaveurDuMaroc/assets/116807307/52cad0f2-0326-4be4-b6a5-97d8f5537bbf)
+
+PS:Ensure your Neo4j server is operational, and the connection information in the .env file is correct. If you encounter issues, be sure to check the error logs for specific messages.
 
